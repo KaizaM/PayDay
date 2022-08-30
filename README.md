@@ -1,5 +1,5 @@
 # PayDay
-Salary Prediction Tool: (add website)
+Salary Prediction Tool: https://kaizam.github.io/PayDay/
 
 Create a 'Resources' Folder and input 2016-2022 data from here: https://insights.stackoverflow.com/survey
 
