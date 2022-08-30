@@ -8,7 +8,6 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -101,6 +100,9 @@ input, select, textarea {
 
 .navbar{
   position: fixed;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 25px !important;
   transition: 1s;
 }
   .navbar-brand{
@@ -144,23 +146,8 @@ input, select, textarea {
       font-family: nyala;
       font-size: 44px;
     }
-    body::-webkit-scrollbar-track
-{
-  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-  
-}
-body::-webkit-scrollbar
-{
-  width: 12px;
-}
-
-body::-webkit-scrollbar-thumb
-{
-  
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
-  background:  #c4c4c4;
-}
-@media(max-width: 720px){
+    
+	@media(max-width: 720px){
   body{
     background-size: 100% 100%;
   }
@@ -2380,19 +2367,17 @@ body::-webkit-scrollbar-thumb
 				font-size: 1.5em;
 			}
 
-			.main > .content.dark {
-				background: #433;
-			}
+			
 
-			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+			.main > .content.style3 {
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #dcffff, #529daa, #a2fbfb);
 			}
 
 			.main > .content.style2 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(125deg, #00ffff, #529daa, #acfdfd, #dcffff);
 			}
 
-			.main > .content.style3 {
+			.main > .content.style1 {
 				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
 			}
 
